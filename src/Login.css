@@ -1,0 +1,95 @@
+/* FULL PAGE */
+.login-page {
+  height: 100vh;
+  background: radial-gradient(circle at top, #2a004f, #05000a 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* GLASS CARD */
+.login-card {
+  width: 360px;
+  padding: 35px;
+  background: rgba(20, 10, 40, 0.6);
+  backdrop-filter: blur(18px);
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(140, 0, 255, 0.4);
+  text-align: center;
+  color: white;
+}
+
+/* BRAND */
+.brand {
+  font-size: 32px;
+  font-weight: 600;
+  color: #c084fc;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+/* INPUTS */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 14px;
+}
+
+.login-card input::placeholder {
+  color: #bbb;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #7f00ff, #c084fc);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.03);
+}
+
+/* SIGNUP BUTTON */
+.signup-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #7f00ff;
+  border-radius: 8px;
+  color: #c084fc;
+  cursor: pointer;
+}
+
+/* MESSAGES */
+.error {
+  margin-top: 12px;
+  color: #ff6b6b;
+  font-size: 13px;
+}
+
+.info {
+  margin-top: 12px;
+  color: #7dffb3;
+  font-size: 13px;
+}
